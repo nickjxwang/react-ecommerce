@@ -7,13 +7,14 @@ import { Link } from 'react-router-dom'
 
 const CartButtons = () => {
     const { closeSidebar } = useProductsContext()
+    const { total_items } = useCartContext()
     return (
         <Wrapper className='cart-btn-wrapper'>
             <Link to='/cart' className='cart-btn' onClick={closeSidebar}>
                 Cart
                 <span className='cart-container'>
                     <FaShoppingCart />
-                    <span className='cart-value'>1</span>
+                    <span className='cart-value'>{total_items}</span>
                 </span>
             </Link>
             <button type='button' className='auth-btn'>
