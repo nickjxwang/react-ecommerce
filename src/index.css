@@ -19,17 +19,17 @@ Variables
     --clr-primary-9: hsl(214.7, 33%, 81%);
     --clr-primary-10: hsl(214.7, 33%, 88%);
     /* darkest grey - used for headings */
-    --clr-grey-1: hsl(209, 61%, 16%);
-    --clr-grey-2: hsl(211, 39%, 23%);
-    --clr-grey-3: hsl(209, 34%, 30%);
-    --clr-grey-4: hsl(209, 28%, 39%);
+    --clr-grey-1: #0f172a;
+    --clr-grey-2: #1e293b;
+    --clr-grey-3: #334155;
+    --clr-grey-4: #475569;
     /* grey used for paragraphs */
-    --clr-grey-5: hsl(210, 22%, 49%);
-    --clr-grey-6: hsl(209, 23%, 60%);
-    --clr-grey-7: hsl(211, 27%, 70%);
-    --clr-grey-8: hsl(210, 31%, 80%);
-    --clr-grey-9: hsl(212, 33%, 89%);
-    --clr-grey-10: hsl(210, 36%, 96%);
+    --clr-grey-5: #64748b;
+    --clr-grey-6: #94a3b8;
+    --clr-grey-7: #cbd5e1;
+    --clr-grey-8: #e2e8f0;
+    --clr-grey-9: #f1f5f9;
+    --clr-grey-10: #f8fafc;
     --clr-white: #fff;
     --clr-red-dark: hsl(360, 67%, 44%);
     --clr-red-light: hsl(360, 71%, 66%);
@@ -103,6 +103,9 @@ h5 {
 p {
     margin-bottom: 1.25rem;
     color: var(--clr-grey-3);
+}
+button {
+    font-family: inherit;
 }
 @media screen and (min-width: 800px) {
     h1 {

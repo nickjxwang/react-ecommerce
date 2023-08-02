@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import logo from '../assets/logo2.svg'
+import Logo from '../components/Logo'
 import { FaBars } from 'react-icons/fa'
 import { links } from '../utils/constants'
 import CartButtons from './CartButtons'
@@ -16,7 +16,7 @@ const Nav = () => {
             <div className='nav-center'>
                 <div className='nav-header'>
                     <Link to='/'>
-                        <img src={logo} alt='Logo' />
+                        <Logo />
                     </Link>
                     <button
                         type='button'
@@ -63,7 +63,7 @@ const NavContainer = styled.nav`
         align-items: center;
         justify-content: space-between;
         img {
-            width: 175px;
+            width: 145px;
             margin-left: -15px;
         }
     }

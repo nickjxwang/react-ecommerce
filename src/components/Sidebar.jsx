@@ -1,4 +1,4 @@
-import logo from '../assets/logo.svg'
+import Logo from '../components/Logo'
 import { useProductsContext } from '../context/products_context'
 import { FaTimes } from 'react-icons/fa'
 import { links } from '../utils/constants'
@@ -16,7 +16,7 @@ const Sidebar = () => {
                 className={isSidebarOpen ? 'sidebar show-sidebar' : 'sidebar'}
             >
                 <div className='sidebar-header'>
-                    <img src={logo} alt='Logo' className='logo' />
+                    <Logo />
                     <button
                         className='close-btn'
                         type='button'
