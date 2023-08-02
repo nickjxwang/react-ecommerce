@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import heroBcg from '../assets/hero-bcg.jpeg'
+import heroBcg from '../assets/hero-bcg.jpg'
 import heroBcg2 from '../assets/hero-bcg-2.jpeg'
 import { Link } from 'react-router-dom'
 
@@ -23,11 +23,11 @@ const Hero = () => {
             </article>
             <article className='img-container'>
                 <img src={heroBcg} alt='nice table' className='main-img' />
-                <img
+                {/* <img
                     src={heroBcg2}
                     alt='person working'
                     className='accent-img'
-                />
+                /> */}
             </article>
         </Wrapper>
     )
